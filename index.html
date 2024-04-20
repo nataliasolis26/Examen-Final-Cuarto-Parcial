@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tinder Dog</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	    <link href= "css/style.css" rel="stylesheet" >
+		<link href="./css/style.css" rel="stylesheet"  />
+	</head>
+
+	<style>
+		.icon-square {
+	     width: 3rem;
+	     height: 3rem;
+	     border-radius: 0.75rem;
+		}
+	</style>
+
+	<body> 
+		
+		<div class=".container">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">TinderDog</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Nosotros</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Descargar
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Action</a></li>
+						  <li><a class="dropdown-item" href="#">Another action</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link disabled" aria-disabled="true">Conocer</a>
+					  </li>
+					</ul>
+					<form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+
+		</div>
+
+		<div class="gradient-background">
+			<div class="container col-xxl-8 px-4 py-5">
+				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+				  <div class="col-10 col-sm-8 col-lg-6">
+					<img src="images/iphone.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+				  </div>
+				  <div class="col-lg-6">
+					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Conoce perritos nuevos e interesantes cerca </h1>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+					  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-apple mb-1" viewBox="0 0 16 16">
+						<path
+										  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+						<path
+										  d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+						</svg>
+						Descarga</button>
+					  <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+					class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+					<path
+					  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+					</svg>
+					Descarga</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		</div>
+
+		<section id="caracteristicas"></section>
+			<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+			  <div class="col d-flex align-items-start">
+				<div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+					<svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
+					viewBox="0 0 16 16">
+	  <path
+					  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+	  <path
+					  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+	  </svg>
+				</div>
+				<div>
+				  <h3 class="fs-2 text-body-emphasis">Fácil de usar.</h3>
+				  <p>Tan fácil de usar que hasta tu perro podría hacerlo.</p>
+				</div>
+			  </div>
+			  <div class="col d-flex align-items-start">
+				<div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+					<svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+						<path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+						<path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+						</svg>
+				</div>
+				<div>
+				  <h3 class="fs-2 text-body-emphasis">Clientela de élite.</h3>
+				  <p>Tenemos todos los perros, los mejores perros.</p>
+				</div>
+			  </div>
+			  <div class="col d-flex align-items-start">
+				<div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+					<svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-arrow-through-heart"
+					viewBox="0 0 16 16">
+	  <path fill-rule="evenodd"
+					  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z" />
+	  </svg>
+				</div>
+				<div>
+				  <h3 class="fs-2 text-body-emphasis">Satisfaccion garantizada.</h3>
+				  <p>Encuentra el amor de la vida de tu perro o te devolvemos tu dinero.</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		<section id="testimonios"></section>
+		<div class="container my-5">
+			<div class="p-5 text-center bg-body-tertiary rounded-3">
+			  <h1 class="text-body-emphasis">"Ya no tengo que olfatear a otros perros por amor. Encontré el Corgi más atractivo en Tinder Dog. Guau".</h1>
+			  <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile" height="100px" border-radius="50%">
+			  <p class="col-lg-8 mx-auto fs-5 text-muted">
+				Queretaro, Queretaro
+			  </p>
+			  <img src="./images/techcrunch.png" alt="techcrunch" height="30">
+			  <img src="./images/mashable.png" alt="mashable" height="20">
+			  <img src="./images/bizinsider.png" alt="bizinsider" height="30">
+			  <img src="./images/tnw.png" alt="tnw" height="30">
+			  <div class="d-inline-flex gap-2 mb-5">
+			  </div>
+			</div>
+		  </div>
+
+		<section id="precios"></section>
+		<div class="container py-3">
+			<header>
+			  <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+				<a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+				</a>
+			  </div>
+		  
+			  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+				<h1 class="display-4 fw-normal text-body-emphasis">Un plan para las necesidades de cada perro</h1>
+				<p class="fs-5 text-body-secondary">Planes de precios sencillos y asequibles para ti y tu perro.</p>
+			  </div>
+			</header>
+		  
+			<main>
+			  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+				<div class="col">
+				  <div class="card mb-4 rounded-3 shadow-sm">
+					<div class="card-header py-3">
+					  <h4 class="my-0 fw-normal">Chihuahua</h4>
+					</div>
+					<div class="card-body">
+					  <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mes</small></h1>
+					  <ul class="list-unstyled mt-3 mb-4">
+						<li>5 Matches por dia</li>
+						<li>10 Mensajes por dia</li>
+						<li>Uso ilimitado de aplicaciones</li>
+					  </ul>
+					  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Registrate gratis</button>
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+				  <div class="card mb-4 rounded-3 shadow-sm">
+					<div class="card-header py-3">
+					  <h4 class="my-0 fw-normal">Labrador</h4>
+					</div>
+					<div class="card-body">
+					  <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mes</small></h1>
+					  <ul class="list-unstyled mt-3 mb-4">
+						<li>Matches ilimitado</li>
+						<li>Mensajes ilimitado</li>
+						<li>Uso ilimitado de aplicaciones</li>
+					  </ul>
+					  <button type="button" class="w-100 btn btn-lg btn-primary">Empezar</button>
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+				  <div class="card mb-4 rounded-3 shadow-sm border-primary">
+					<div class="card-header py-3 text-bg-primary border-primary">
+					  <h4 class="my-0 fw-normal">Mastiff</h4>
+					</div>
+					<div class="card-body">
+					  <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mes</small></h1>
+					  <ul class="list-unstyled mt-3 mb-4">
+						<li>Listado de prioridades</li>
+						<li>Matches y Mensajes ilimitados</li>
+						<li>Uso ilimitado de aplicaciones</li>
+					  </ul>
+					  <button type="button" class="w-100 btn btn-lg btn-primary">Contactanos</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class=".container">
+				<div class="container">
+					<main>
+					  <div class="py-5 text-center">
+						<h2>Conocenos más.</h2>
+						<p class="lead">Registrate y conoce a los perrunos más guapos que pueden haber. WOOW!</p>
+					  </div>
+				  
+					  <div class="row g-5">
+						<div class="col-md-5 col-lg-4 order-md-last">
+						  <h4 class="d-flex justify-content-between align-items-center mb-3">
+							<span class="text-primary">Costos</span>
+							<span class="badge bg-primary rounded-pill">3</span>
+						  </h4>
+						  <ul class="list-group mb-3">
+							<li class="list-group-item d-flex justify-content-between lh-sm">
+							  <div>
+								<h6 class="my-0">Chihuahua</h6>
+								<small class="text-body-secondary">Uso ilimitado de aplicaciones.</small>
+							  </div>
+							  <span class="text-body-secondary">$0/mes</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between lh-sm">
+							  <div>
+								<h6 class="my-0">Labrador</h6>
+								<small class="text-body-secondary">Uso ilimitado de aplicaciones.</small>
+							  </div>
+							  <span class="text-body-secondary">$15/mes</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between lh-sm">
+							  <div>
+								<h6 class="my-0">Mastiff</h6>
+								<small class="text-body-secondary">Uso ilimitado de aplicaciones.</small>
+							  </div>
+							  <span class="text-body-secondary">$29/mes</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+							  <div class="text-success">
+								<h6 class="my-0">Promociones</h6>
+								<small>EXAMPLECODE</small>
+							  </div>
+							  <span class="text-success">−$5</span>
+							</li>
+							<li class="list-group-item d-flex justify-content-between">
+							  <span>Total (USD)</span>
+							  <strong>$44</strong>
+							</li>
+						  </ul>
+				  
+						  <form class="card p-2">
+							<div class="input-group">
+							  <input type="text" class="form-control" placeholder="Promo code">
+							  <button type="submit" class="btn btn-secondary">Redeem</button>
+							</div>
+						  </form>
+						</div>
+						<div class="col-md-7 col-lg-8">
+						  <h4 class="mb-3">Registrate</h4>
+						  <form class="needs-validation" novalidate="">
+							<div class="row g-3">
+							  <div class="col-sm-6">
+								<label for="firstName" class="form-label">Nombre</label>
+								<input type="text" class="form-control" id="Nombre" placeholder="" value="" required="">
+								<div class="invalid-feedback">
+								  Valid first name is required.
+								</div>
+							  </div>
+				  
+							  <div class="col-sm-6">
+								<label for="lastName" class="form-label">Last name</label>
+								<input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+								<div class="invalid-feedback">
+								  Valid last name is required.
+								</div>
+							  </div>
+				  
+							  <div class="col-12">
+								<label for="username" class="form-label">Nombre de Usuario</label>
+								<div class="input-group has-validation">
+								  <span class="input-group-text">@</span>
+								  <input type="text" class="form-control" id="username" placeholder="Username" required="">
+								<div class="invalid-feedback">
+									Your username is required.
+								  </div>
+								</div>
+							  </div>
+				  
+							  <div class="col-12">
+								<label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+								<input type="email" class="form-control" id="email" placeholder="you@example.com">
+								<div class="invalid-feedback">
+								  Please enter a valid email address for shipping updates.
+								</div>
+							  </div>
+				  
+							  <div class="col-12">
+								<label for="address" class="form-label">Contraseña</label>
+								<input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+								<div class="invalid-feedback">
+								  Please enter your shipping address.
+								</div>
+							  </div>
+				  
+							  <div class="col-12">
+								<label for="address2" class="form-label">Confirmar contraseña <span class="text-body-secondary">(Optional)</span></label>
+								<input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+							  </div>
+				  
+							  <div class="col-md-5">
+								<label for="country" class="form-label">Ciudad</label>
+								<select class="form-select" id="country" required="">
+								  <option value="">País</option>
+								  <option>Dirección</option>
+								</select>
+								<div class="invalid-feedback">
+								  Please select a valid country.
+								</div>
+							  </div>
+				  
+							  <div class="col-md-4">
+								<label for="state" class="form-label">Ciudad</label>
+								<select class="form-select" id="state" required="">
+								  <option value="">País</option>
+								  <option>California</option>
+								</select>
+								<div class="invalid-feedback">
+								  Please provide a valid state.
+								</div>
+							  </div>
+				  
+							  <div class="col-md-3">
+								<label for="zip" class="form-label">Zip</label>
+								<input type="text" class="form-control" id="zip" placeholder="" required="">
+								<div class="invalid-feedback">
+								  Zip code required.
+								</div>
+							  </div>
+							</div>
+				  
+							<hr class="my-4">
+				  
+							<div class="form-check">
+							  <input type="checkbox" class="form-check-input" id="same-address">
+							  <label class="form-check-label" for="same-address">Estas de acuerdo con nuestras políticas y sugerencias de la app.</label>
+							</div>
+				  
+							<hr class="my-4">
+				  
+							<h4 class="mb-3">Metodo de pago</h4>
+				  
+							<div class="my-3">
+							  <div class="form-check">
+								<input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+								<label class="form-check-label" for="credit">Credit card</label>
+							  </div>
+							  <div class="form-check">
+								<input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+								<label class="form-check-label" for="debit">Debit card</label>
+							  </div>
+							  <div class="form-check">
+								<input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+								<label class="form-check-label" for="paypal">PayPal</label>
+							  </div>
+							</div>
+				  
+							<div class="row gy-3">
+							  <div class="col-md-6">
+								<label for="cc-name" class="form-label">Nombre de tarjeta</label>
+								<input type="text" class="form-control" id="cc-name" placeholder="" required="">
+								<small class="text-body-secondary">Datos</small>
+								<div class="invalid-feedback">
+								  Name on card is required
+								</div>
+							  </div>
+				  
+							  <div class="col-md-6">
+								<label for="cc-number" class="form-label">Numero de tarjeta </label>
+								<input type="text" class="form-control" id="cc-number" placeholder="" required="">
+								<div class="invalid-feedback">
+								  Credit card number is required
+								</div>
+							  </div>
+				  
+							  <div class="col-md-3">
+								<label for="cc-expiration" class="form-label">Expiracion</label>
+								<input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+								<div class="invalid-feedback">
+								  Expiration date required
+								</div>
+							  </div>
+				  
+							  <div class="col-md-3">
+								<label for="cc-cvv" class="form-label">CVV</label>
+								<input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+								<div class="invalid-feedback">
+								  Codigo de seguridad
+								</div>
+							  </div>
+							</div>
+				  
+							<hr class="my-4">
+				  
+							<button class="w-100 btn btn-primary btn-lg" type="submit">Continuar</button>
+						  </form>
+						</div>
+					  </div>
+					</main>
+				  
+					<footer class="my-5 pt-5 text-body-secondary text-center text-small">
+					  <p class="mb-1">© 2017–2024 Company Name</p>
+					  <ul class="list-inline">
+						<li class="list-inline-item"><a href="#">Privacy</a></li>
+						<li class="list-inline-item"><a href="#">Terms</a></li>
+						<li class="list-inline-item"><a href="#">Support</a></li>
+					  </ul>
+					</footer>
+				  </div>
+			  </div>
+
+			  <div class=".container">
+				<div class="col-lg-4">
+					<img src="./images/dog-img.jpg" alt="dog-img" height="100" width="100">
+					<h2 class="fw-normal">Acercate aqui</h2>
+					<p>Encuentra y disfruta de más compañia para tu perruno, corre ya.</p>
+					<p><a class="btn btn-secondary" href="#">Conoce más aquí »</a></p>
+				  </div>
+			  </div>
+
+			  <div class=".container">
+				<div class="row mb-3 text-center">
+					<div class="col-4 themed-grid-col">Chihuahua</div>
+					<div class="col-4 themed-grid-col">Labrador</div>
+					<div class="col-4 themed-grid-col">Mastiff</div>
+				  </div>
+			  </div>
+
+			  <div class=".container">
+				<div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+					<ul class="dropdown-menu position-static d-grid gap-1 p-2 rounded-3 mx-0 shadow w-220px" data-bs-theme="light">
+					  <li><a class="dropdown-item rounded-2 active" href="#">Acccion</a></li>
+					  <li><a class="dropdown-item rounded-2" href="#">Otra accion</a></li>
+					  <li><a class="dropdown-item rounded-2" href="#">Más</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item rounded-2" href="#">Separar Link</a></li>
+					</ul>
+			  </div>
+
+		<section id="footer"></section>
+		<div class="gradient-background">
+			<div class="container">
+				<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+				  <div class="col mb-3">
+					<a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+					  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+					</a>
+					<p class="text-body-secondary">© Tinder Dog</p>
+				  </div>
+			  
+				  <div class="col mb-3">
+			  
+				  </div>
+			  
+				  <div class="col mb-3">
+					<h5>Sección</h5>
+					<ul class="nav flex-column">
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inicio</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Caracteristicas</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Precios</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nosotros</a></li>
+					</ul>
+				  </div>
+			  
+				  <div class="col mb-3">
+					<h5>Sección</h5>
+					<ul class="nav flex-column">
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inicio</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Caracteristicas</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Precios</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nosotros</a></li>
+					</ul>
+				  </div>
+			  
+				  <div class="col mb-3">
+					<h5>Sección</h5>
+					<ul class="nav flex-column">
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inicio</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Caracteristicas</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Precios</a></li>
+					  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nosotros</a></li>
+					</ul>
+				  </div>
+	</body>
+</html>
